@@ -1,0 +1,2 @@
+# No external dependencies needed for basic scanner
+# Python 3.x is required
