@@ -33,7 +33,6 @@ if __name__ == "__main__":
     print(f"Scan started: {datetime.now()}")
     print("-" * 50)
     
-    # Scan common ports (you can change this range)
     for port in [21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 3389]:
         scan_port(target, port)
     
